@@ -1,0 +1,85 @@
+body {
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(30, 30, 30);
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family:'Montserrat', sans-serif;
+  color: #15005D;
+}
+
+h1 {
+  font-size: 1.8em ;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 1.3em ;
+  line-height: 0.9em;
+}
+
+h3 {
+  font-size: 1.1em ;
+  line-height: 0.8em;
+}
+
+a {
+  color: #005585;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background-color: white;
+  border: 3px solid #15005D;
+  border-radius: 5px ;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 30px ;
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
